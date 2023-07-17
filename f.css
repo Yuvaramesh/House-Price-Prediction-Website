@@ -1,0 +1,381 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 108, 251);
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+    overflow-x: hidden;
+    
+
+    }
+
+.banner-text {
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+}
+.banner-text nav {
+    display: flex;
+	height: 50px;
+	float: right;
+    gap: 30px;
+    color: white;
+  
+    
+}
+.banner-text nav a {
+	display: inline-block;
+	padding: 40px 15px;
+	text-transform: uppercase;
+	color: #fff;
+    text-decoration: none;
+	font-size: 20px;
+}
+.banner-text ul li:hover {
+	cursor: pointer;
+}
+.banner-text h2 {
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	margin-top: 20%;
+}
+.animation-area {
+	background: linear-gradient(to left, #8942a8, #ba382f);
+	width: 100%;
+	height: 100vh;
+}
+.box-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.imagediv{
+    margin-top: 50px;
+    text-align:center;
+    }
+.house{
+    width: 250px;
+    cursor: pointer;
+    
+    }
+.forms{
+max-width:400px;
+
+margin:auto;
+border-radius:5px;
+
+padding:60px;
+}
+input[type=text],select{
+    width:100%;
+    padding:12px 15px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+input[type=number],select{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    background:purple;
+    color:white;
+    text-color:white;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+input[type=submit],select{
+    width:100%;
+    padding:14px 20px;
+    margin:8px 0;
+    background:purple;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;}
+
+input[type=submit]:hover{
+    background:cyan;
+}
+.button{
+    max-width:400px;
+
+margin:auto;
+border-radius:5px;
+
+paddding:60px;
+
+}
+.submit{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(242, 15, 15);
+    color: white;
+    padding:12px 15px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+p{
+    color: crimson;
+    font-size: 40px;
+    font-size: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bubble-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.bubble {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    animation: floatBubble linear infinite;
+}
+
+.bubble:nth-child(1) {
+    width: 20px;
+    height: 20px;
+    left: 10%;
+    bottom: 0%;
+    animation-duration: 7s;
+}.bubble:nth-child(2) {
+    width: 14px;
+    height: 14px;
+    left: 15%;
+    bottom: 0;
+    animation-duration: 6s;
+}
+
+.bubble:nth-child(3) {
+    width: 14px;
+    height: 14px;
+    left: 35%;
+    bottom: 0;
+    animation-duration: 5s;
+}
+
+.bubble:nth-child(4) {
+    width: 14px;
+    height: 14px;
+    left: 45%;
+    bottom: 0;
+    animation-duration: 4s;
+}
+
+.bubble:nth-child(5) {
+    width: 15px;
+    height: 15px;
+    left: 25%;
+    bottom: 0;
+    animation-duration: 3s;
+}
+
+.bubble:nth-child(6) {
+    width: 12px;
+    height: 12px;
+    left: 40%;
+    bottom: 0;
+    animation-duration: 5s;
+}
+
+.bubble:nth-child(7) {
+    width: 18px;
+    height: 18px;
+    left: 55%;
+    bottom: 0;
+    animation-duration: 4s;
+}
+
+.bubble:nth-child(8) {
+    width: 14px;
+    height: 14px;
+    left: 70%;
+    bottom: 0;
+    animation-duration: 5s;
+}
+.bubble:nth-child(9) {
+    width: 14px;
+    height: 14px;
+    left: 80%;
+    bottom: 0;
+    animation-duration: 6s;
+}
+.bubble:nth-child(10) {
+    width: 14px;
+    height: 14px;
+    left: 85%;
+    bottom: 0;
+    animation-duration: 7s;
+}
+.bubble:nth-child(11) {
+    width: 14px;
+    height: 14px;
+    left: 90%;
+    bottom: 0;
+    animation-duration: 7s;
+}
+.bubble:nth-child(12) {
+    width: 14px;
+    height: 14px;
+    left: 100%;
+    bottom: 0;
+    animation-duration: 6s;
+}
+.bubble:nth-child(13) {
+    width: 14px;
+    height: 14px;
+    left: 70%;
+    bottom: 0;
+    animation-duration: 5s;
+}
+
+
+@keyframes floatBubble {
+    0% {
+        transform: translateY(100vh);
+    }
+    50% {
+        transform: translateY(-100vh);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+.background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.background-animation::after {
+    content: "House Price Prediction";
+    color: brown;
+    
+    font-size: 3rem;
+    animation: moveBackgroundText 15s infinite linear;
+}
+
+
+@keyframes moveBackgroundText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.box-area li {
+	position: absolute;
+	display: block;
+	list-style: none;
+	width: 25px;
+	height: 25px;
+	background: rgba(255, 255, 255, 0.2);
+	animation: animate 20s linear infinite;
+	bottom: -150px;
+}
+
+.box-area li:nth-child(1) {
+	left: 86%;
+	width: 80px;
+	height: 80px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(2) {
+	left: 12%;
+	width: 30px;
+	height: 30px;
+	animation-delay: 1.5s;
+	animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+	left: 70%;
+	width: 100px;
+	height: 100px;
+	animation-delay: 5.5s;
+}
+.box-area li:nth-child(4) {
+	left: 42%;
+	width: 150px;
+	height: 150px;
+	animation-delay: 0s;
+	animation-duration: 15s;
+}
+.box-area li:nth-child(5) {
+	left: 65%;
+	width: 40px;
+	height: 40px;
+	animation-delay: 0s;
+}
+.box-area li:nth-child(6) {
+	left: 15%;
+	width: 110px;
+	height: 110px;
+	animation-delay: 3.5s;
+}
+@keyframes animate {
+	0% {
+		transform: translateY(0) rotate(0deg);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(-800px) rotate(360deg);
+		opacity: 0;
+	}
+}
+
+.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+    padding: 20px;
+}
+
+.overlay-content .forms {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.overlay-content p {
+    color: crimson;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
