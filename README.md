@@ -12,6 +12,6 @@
 
 ### Technologies Used
 
-#### **Frontend:** HTML, CSS, JavaScript
-#### **Backend:** Flask Framework
-#### **Machine Learning:** (Specify the library or model you are using, e.g., scikit-learn, TensorFlow)
+##### **Frontend:** HTML, CSS, JavaScript
+##### **Backend:** Flask Framework
+##### **Machine Learning:** (Specify the library or model you are using, e.g., scikit-learn, TensorFlow)
