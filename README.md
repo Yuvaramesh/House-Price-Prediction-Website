@@ -14,4 +14,4 @@ The House Price Prediction Website is a user-friendly platform that enables user
 
  1. **Frontend:** HTML, CSS, JavaScript
  2. **Backend:** Flask Framework
-##### **Machine Learning:** (Specify the library or model you are using, e.g., scikit-learn, TensorFlow)
+ 3. **Machine Learning:** (Specify the library or model you are using, e.g., scikit-learn, TensorFlow)
